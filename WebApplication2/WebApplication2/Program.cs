@@ -10,7 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+//var builder = WebApplication.CreateBuilder(args);
+System.Console.WriteLine(builder.Configuration.GetConnectionString("SQLiteContext"));
 builder.Services.AddDbContext<TestDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AzureContext"))); ; ;
 

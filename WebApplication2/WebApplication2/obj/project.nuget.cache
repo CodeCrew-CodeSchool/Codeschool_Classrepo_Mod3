@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5gQx8rAnthGOXzM72b48S7RLYV+J+4ncj6egjjkb9Pi8ZsF2KUMH1/Xgd28jNxk7N4qrp+rumnHnHoeVeRKeIQ==",
+  "dgSpecHash": "bTTgUppkILDqBRU8CNn4CSKe9fnSVpMBkoOqqMn+zdANnEDf7pSKiH5FbvXRD90YL5r0zf5t6le+ZqVtytUw+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DJ\\source\\repos\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "projectFilePath": "C:\\Users\\DJ\\source\\repos\\Module3\\Codeschool_Classrepo_Mod3\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DJ\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DJ\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
