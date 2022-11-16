@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebApplication2.Data;
 using WebApplication2.Models;
+using WebApplication2.Models.Interfaces;
 
 namespace WebApplication2.Controllers
 {
@@ -14,11 +15,17 @@ namespace WebApplication2.Controllers
     {
         private readonly TestDbContext _context;
 
+        private ICast _cast;
+
         public CastsController(TestDbContext context)
         {
             _context = context;
-        }
 
+        }
+        public CastsController(ICast c)
+        {
+            _cast = c;
+        }
         // GET: Casts
         public async Task<IActionResult> Index()
         {
@@ -58,8 +65,7 @@ namespace WebApplication2.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(cast);
-                await _context.SaveChangesAsync();
+                await _cast.Create(cast);
                 return RedirectToAction(nameof(Index));
             }
             return View(cast);
