@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\DJ\source\repos\Module3\Codeschool_Classrepo_Mod3\WebApplication2\WebApplication2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/DJ/source/repos/Module3/Codeschool_Classrepo_Mod3/WebApplication2/WebApplication2/Views/Casts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DJ/source/repos/Module3/Codeschool_Classrepo_Mod3/WebApplication2/WebApplication2/Views/Casts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DJ/source/repos/Module3/Codeschool_Classrepo_Mod3/WebApplication2/WebApplication2/Views/Casts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DJ/source/repos/Module3/Codeschool_Classrepo_Mod3/WebApplication2/WebApplication2/Views/Casts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DJ/source/repos/Module3/Codeschool_Classrepo_Mod3/WebApplication2/WebApplication2/Views/Casts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DJ/source/repos/Module3/Codeschool_Classrepo_Mod3/WebApplication2/WebApplication2/Views/Home/Hey.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
